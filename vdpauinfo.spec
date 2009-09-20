@@ -2,7 +2,7 @@
 %define name	vdpauinfo
 %define version	0.0.6
 %define snap	20090221
-%define rel	1
+%define rel	2
 
 Summary:	VDPAU acceleration information utility
 Name:		%{name}
