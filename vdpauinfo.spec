@@ -56,6 +56,6 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
-%doc LICENSE AUTHORS
+%doc AUTHORS
 %{_bindir}/%{name}
 
