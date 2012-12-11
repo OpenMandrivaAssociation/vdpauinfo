@@ -59,3 +59,23 @@ rm -rf %{buildroot}
 %doc AUTHORS
 %{_bindir}/%{name}
 
+
+
+%changelog
+* Sun Sep 20 2009 Anssi Hannula <anssi@mandriva.org> 0.0.6-1mdv2010.0
++ Revision: 445824
+- new stable version 0.0.6
+
+* Sun Sep 20 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.0.6-0.20090221.2mdv2010.0
++ Revision: 445657
+- rebuild
+
+* Sat Feb 21 2009 Anssi Hannula <anssi@mandriva.org> 0.0.6-0.20090221.1mdv2009.1
++ Revision: 343648
+- new snapshot from fdo
+- rename vdpinfo to vdpauinfo
+
+* Tue Dec 23 2008 Anssi Hannula <anssi@mandriva.org> 0.0.4-1mdv2009.1
++ Revision: 317918
+- initial Mandriva release
+
