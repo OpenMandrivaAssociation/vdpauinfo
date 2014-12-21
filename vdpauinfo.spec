@@ -26,5 +26,4 @@ your X display and prints them in tabular format.
 %makeinstall_std
 
 %files
-%doc AUTHORS
 %{_bindir}/%{name}
