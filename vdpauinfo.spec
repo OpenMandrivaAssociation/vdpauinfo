@@ -5,7 +5,7 @@ Release:	1
 License:	MIT
 Group:		Development/X11
 URL:		https://gitlab.freedesktop.org/vdpau/vdpauinfo
-Source0:	https://gitlab.freedesktop.org/vdpau/vdpauinfo/-/archive/%{version}/vdpauinfo-%{version}.tar.gz
+Source0:	https://gitlab.freedesktop.org/vdpau/vdpauinfo/-/archive/%{version}/vdpauinfo-%{version}.tar.bz2
 BuildRequires:	pkgconfig(vdpau)
 BuildRequires:	pkgconfig(x11)
 
