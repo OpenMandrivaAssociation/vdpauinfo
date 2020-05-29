@@ -1,14 +1,14 @@
 Summary:	VDPAU acceleration information utility
 Name:		vdpauinfo
-Version:	1.0
+Version:	1.4
 Release:	1
 License:	MIT
 Group:		Development/X11
-URL:		http://freedesktop.org/wiki/Software/VDPAU
-Source0:	http://people.freedesktop.org/~aplattner/vdpau/%{name}-%{version}.tar.gz
-BuildRequires:	pkgconfig(vdpau) >= 0.9
+URL:		https://gitlab.freedesktop.org/vdpau/vdpauinfo
+Source0:	https://gitlab.freedesktop.org/vdpau/vdpauinfo/-/archive/%{version}/vdpauinfo-%{version}.tar.bz2
+BuildRequires:	pkgconfig(vdpau)
 BuildRequires:	pkgconfig(x11)
-Obsoletes:	vdpinfo < 0.0.6
+
 Requires:	%{_lib}vdpau-driver-nouveau
 
 %description
@@ -19,11 +19,12 @@ your X display and prints them in tabular format.
 %setup -q
 
 %build
+autoreconf -vfi
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/%{name}
