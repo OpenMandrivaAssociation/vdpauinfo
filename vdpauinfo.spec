@@ -9,7 +9,7 @@ Source0:	https://gitlab.freedesktop.org/vdpau/vdpauinfo/-/archive/%{version}/vdp
 BuildRequires:	pkgconfig(vdpau)
 BuildRequires:	pkgconfig(x11)
 
-Requires:	%{_lib}vdpau-driver-nouveau
+Recommends:	%{_lib}vdpau-driver-nouveau
 
 %description
 Simple utility that queries and displays the VDPAU capabilities of
